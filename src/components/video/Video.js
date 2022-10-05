@@ -4,8 +4,8 @@ import './Video.css';
 const Video = ({ video }) => {
     return (
         <div className="video-responsive">
-            <iframe width="315"
-                height="315"
+            <iframe width="200"
+                height="200"
                 src={video}
                 title="YouTube video player"
                 frameborder="0"

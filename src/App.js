@@ -3,7 +3,7 @@ import Intro from './components/intro/Intro';
 import Skills from './components/skills/Skills';
 import ProductList from './components/productList/ProductList';
 import Footer from './components/footer/Footer';
-import Video from './components/video/Video';
+
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
       <Intro />
       <Skills />
       <ProductList />
-      <Video />
       <Footer />
     </div>
   );

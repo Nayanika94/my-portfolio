@@ -14,7 +14,7 @@ export const products = [
     {
         id: 1,
         title: "Fitness factory - Capstone",
-        video: "https://www.youtube.com/embed/Y_Nadw6t-RQ&ab_channel=devanshthaker",
+        video: "https://www.youtube.com/embed/Y_Nadw6t-RQ",
         desc: "The Fitness Factory App is here to create a better platform for gyms and other health centers to reach their members. The app allows users to enable any healthy lifestyle they are looking to create for themselves. Our app centralizes exercise, nutrition, organizational, and coming soon mental health tools that make hitting your goals much easier and more efficient.",
         technology: "UI/UX Figma React Android",
     },

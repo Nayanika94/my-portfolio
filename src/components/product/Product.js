@@ -14,13 +14,12 @@ const Product = ({ img, link, desc, title, technology, video }) => {
                 {img && <img src={img} alt="" className="p-img" />}
 
             </a>
-            <p className="p-title">{title}</p>
+            {video && <a href={video} target="_blank" rel="noreferrer" className="p-title">{title}</a>}
+            {img && <a href={link} target="_blank" rel="noreferrer" className="p-title">{title}</a>}
             <div>{desc}</div>
             <div className="p-title">Technologies:</div>
             <div>{technology}</div>
-
         </div>
-
     );
 };
 
