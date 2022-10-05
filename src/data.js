@@ -25,7 +25,7 @@ export const products = [
         title: "Happy Home",
         desc: "Our project will focus on creating an all-inclusive platform that will offer a variety of at-home services to choose from for potential clients. ",
         technology: "HTML CSS JQuery JavaScript",
-        link: "https://github.com/Nayanika94/final-project-tech-amigos-web",
+        link: "https://github.com/Nayanika94/Nayanika-FirstSem-Project",
     },
 
 ];

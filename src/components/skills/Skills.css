@@ -7,7 +7,7 @@
 .a-left {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   position: relative;
   height: 100%;
@@ -76,8 +76,15 @@
 @media screen and (max-width: 480px) {
   .a {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
+  }
+
+  .a-award-title {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .a-left {
@@ -95,5 +102,30 @@
 
   .a-right {
     padding: 20px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
+  .a {
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    margin-top: 40px;
+    height: 40vh;
+  }
+
+  .a-card.bg,
+  .a-award {
+    display: block;
+  }
+
+  .a-right {
+    padding: 50px;
   }
 }
