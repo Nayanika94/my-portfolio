@@ -5,14 +5,13 @@ const Skills = () => {
     return (
         <div className="a">
             <div className="a-left">
-                <div className="a-card bg">
-                    <div className="a-card">
-                        <img
-                            src={Skill}
-                            alt=""
-                            className="a-img"
-                        />
-                    </div>
+                <div className="a-card bg"></div>
+                <div className="a-card">
+                    <img
+                        src={Skill}
+                        alt=""
+                        className="a-img"
+                    />
                 </div>
             </div>
             <div className="a-right">

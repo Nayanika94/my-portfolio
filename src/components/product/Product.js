@@ -1,6 +1,7 @@
 import "./Product.css";
+import Video from "../video/Video";
 
-const Product = ({ img, link, desc, title, technology }) => {
+const Product = ({ img, link, desc, title, technology, video }) => {
     return (
         <div className="p">
             <div className="p-browser">
@@ -9,13 +10,17 @@ const Product = ({ img, link, desc, title, technology }) => {
                 <div className="p-circle"></div>
             </div>
             <a href={link} target="_blank" rel="noreferrer">
-                <img src={img} alt="" className="p-img" />
+                {video && <Video video={video} />}
+                {img && <img src={img} alt="" className="p-img" />}
+
             </a>
             <p className="p-title">{title}</p>
             <div>{desc}</div>
             <div className="p-title">Technologies:</div>
             <div>{technology}</div>
+
         </div>
+
     );
 };
 
