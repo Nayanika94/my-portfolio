@@ -18,6 +18,7 @@ const Footer = () => {
                     <span style={{ paddingLeft: 5 }}>
                         {new Date().getFullYear()}
                     </span>
+                    <a href="mailto:nayanika.jl@gmail.com"> Nayanika Saha</a>
                 </div>
                 <a
                     href="https://github.com/Nayanika94"

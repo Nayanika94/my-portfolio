@@ -1,6 +1,7 @@
 // import bestbid from './img/best-bid.png';
 import library from './img/library.png';
 import home from './img/Home.png';
+import tcg from './img/tcg.png'
 
 export const products = [
     // {
@@ -34,4 +35,12 @@ export const products = [
         technology: "HTML CSS JQuery JavaScript",
         link: "https://github.com/Nayanika94/Nayanika-FirstSem-Project",
     },
+    {
+        id: 4,
+        img: tcg,
+        title: "Trading Card Game Project",
+        desc: "A mini project using the Scryfall API used for searching cards",
+        technology: "ReactJS NodeJS Express TailwindCSS",
+        link: "https://github.com/Nayanika94/MERN_Stack_Project_TCG",
+    }
 ];
